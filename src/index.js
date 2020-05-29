@@ -20,8 +20,8 @@ export default class App extends React.Component {
     });
   };
 
-  evaluate = (answer, correct) => {
-    if (answer === correct) {
+  evaluate = (response, correct) => {
+    if (response === correct) {
       this.setState({
         score: this.state.score + 1,
       });
@@ -46,14 +46,13 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="title">Hey</div>
-        {this.state.questions.length > 0 &&
-          this.state.responses < 4 &&
+        <div className="title">Ear Trainer</div>
+        {this.state.responses < 4 &&
           this.state.questions.map(
-            ({ question, answers, correct, questionId }) => (
+            ({ question, choices, correct, questionId }) => (
               <QuestionBox
                 question={question}
-                choices={answers}
+                choices={choices}
                 key={questionId}
                 chosen={(answer) => this.evaluate(answer, correct)}
               />
