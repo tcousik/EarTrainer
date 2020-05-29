@@ -88,3 +88,11 @@
   outline: none;
   cursor: pointer;
 }
+
+.questionSpace {
+  display: flex;
+}
+
+.audioBtn {
+  margin-left: 10px;
+}

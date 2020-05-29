@@ -6,7 +6,10 @@ const QuestionBox = ({ question, choices, chosen }) => {
 
   return (
     <div className="questionBox">
-      <div className="question">{question}</div>
+      <div className="questionSpace">
+        <div className="question">{question}</div>
+        <button className="audioBtn">X</button>
+      </div>
       <div className="cont">
         {answer.map((text, index) => (
           <button
