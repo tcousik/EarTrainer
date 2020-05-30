@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import shortid from "shortid";
 
-const QuestionBox = ({ question, choices, chosen }) => {
+const QuestionBox = ({ question, soundURL, choices, chosen }) => {
   const [answer, setAnswer] = useState(choices);
 
   return (

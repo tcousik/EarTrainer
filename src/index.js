@@ -49,9 +49,10 @@ export default class App extends React.Component {
         <div className="title">Ear Trainer</div>
         {this.state.responses < 4 &&
           this.state.questions.map(
-            ({ question, choices, correct, questionId }) => (
+            ({ question, soundURL, choices, correct, questionId }) => (
               <QuestionBox
                 question={question}
+                soundURL={soundURL}
                 choices={choices}
                 key={questionId}
                 chosen={(answer) => this.evaluate(answer, correct)}
