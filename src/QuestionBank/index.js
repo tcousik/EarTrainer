@@ -1,10 +1,22 @@
 import shortid from "shortid";
+import Unison from "../assets/Unison.mp3";
+import Minor2nd from "../assets/Minor2nd.mp3";
+import Major2nd from "../assets/Major2nd.mp3";
+import Minor3rd from "../assets/Minor3rd.mp3";
+import Major3rd from "../assets/Major3rd.mp3";
+import Perfect4th from "../assets/Perfect4th.mp3";
+import Tritone from "../assets/Tritone.mp3";
+import Perfect5th from "../assets/Perfect5th.mp3";
+import Minor6th from "../assets/Minor6th.mp3";
+import Major6th from "../assets/Major6th.mp3";
+import Minor7th from "../assets/Minor7th.mp3";
+import Major7th from "../assets/Major7th.mp3";
+import Octave from "../assets/Octave.mp3";
 
 const questionBank = [
   {
     question: "Identify the interval",
-    soundURL:
-      "https://dl.dropboxusercontent.com/s/bwjsbaaus2jy3vy/Unison.mp3?dl=0",
+    soundURL: Unison,
     choices: [
       "Minor 2nd",
       "Major 2nd",
@@ -28,11 +40,9 @@ const questionBank = [
   },
   {
     question: "Identify the interval",
-    soundURL:
-      "https://dl.dropboxusercontent.com/s/z7ty1a76a8fqvjd/Minor%202nd.mp3?dl=0",
+    soundURL: Minor2nd,
     choices: [
       "Unison",
-
       "Major 2nd",
       "Minor 3rd",
       "Major 3rd",
@@ -54,12 +64,10 @@ const questionBank = [
   },
   {
     question: "Identify the interval",
-    soundURL:
-      "https://dl.dropboxusercontent.com/s/9e6rh4nysda81pp/Major%202nd.mp3?dl=0",
+    soundURL: Major2nd,
     choices: [
       "Unison",
       "Minor 2nd",
-
       "Minor 3rd",
       "Major 3rd",
       "Perfect 4th",
@@ -80,13 +88,11 @@ const questionBank = [
   },
   {
     question: "Identify the interval",
-    soundURL:
-      "https://dl.dropboxusercontent.com/s/bmske9bnnyqbbby/Minor%203rd.mp3?dl=0",
+    soundURL: Minor3rd,
     choices: [
       "Unison",
       "Minor 2nd",
       "Major 2nd",
-
       "Major 3rd",
       "Perfect 4th",
       "Tritone",
@@ -107,14 +113,12 @@ const questionBank = [
 
   {
     question: "Identify the interval",
-    soundURL:
-      "https://dl.dropboxusercontent.com/s/6109vm1cre62toq/Major%203rd.mp3?dl=0",
+    soundURL: Major3rd,
     choices: [
       "Unison",
       "Minor 2nd",
       "Major 2nd",
       "Minor 3rd",
-
       "Perfect 4th",
       "Tritone",
       "Perfect 5th",
@@ -133,15 +137,13 @@ const questionBank = [
   },
   {
     question: "Identify the interval",
-    soundURL:
-      "https://dl.dropboxusercontent.com/s/0q7qdf8zj7wm657/Perfect%204th.mp3?dl=0",
+    soundURL: Perfect4th,
     choices: [
       "Unison",
       "Minor 2nd",
       "Major 2nd",
       "Minor 3rd",
       "Major 3rd",
-
       "Tritone",
       "Perfect 5th",
       "Minor 6th",
@@ -159,8 +161,7 @@ const questionBank = [
   },
   {
     question: "Identify the interval",
-    soundURL:
-      "https://dl.dropboxusercontent.com/s/m60m7pcso9n6ebb/Tritone.mp3?dl=0",
+    soundURL: Tritone,
     choices: [
       "Unison",
       "Minor 2nd",
@@ -168,7 +169,6 @@ const questionBank = [
       "Minor 3rd",
       "Major 3rd",
       "Perfect 4th",
-
       "Perfect 5th",
       "Minor 6th",
       "Major 6th",
@@ -185,8 +185,7 @@ const questionBank = [
   },
   {
     question: "Identify the interval",
-    soundURL:
-      "https://dl.dropboxusercontent.com/s/01rihqvsb5xg29j/Perfect%205th.mp3?dl=0",
+    soundURL: Perfect5th,
     choices: [
       "Unison",
       "Minor 2nd",
@@ -195,7 +194,6 @@ const questionBank = [
       "Major 3rd",
       "Perfect 4th",
       "Tritone",
-
       "Minor 6th",
       "Major 6th",
       "Minor 7th",
@@ -212,8 +210,7 @@ const questionBank = [
 
   {
     question: "Identify the interval",
-    soundURL:
-      "https://dl.dropboxusercontent.com/s/xz9ux35fxnlrx3n/Minor%206th.mp3?dl=0",
+    soundURL: Minor6th,
     choices: [
       "Unison",
       "Minor 2nd",
@@ -223,7 +220,6 @@ const questionBank = [
       "Perfect 4th",
       "Tritone",
       "Perfect 5th",
-
       "Major 6th",
       "Minor 7th",
       "Major 7th",
@@ -238,8 +234,7 @@ const questionBank = [
   },
   {
     question: "Identify the interval",
-    soundURL:
-      "https://dl.dropboxusercontent.com/s/dc9flldkh7aggxi/Major%206th.mp3?dl=0",
+    soundURL: Major6th,
     choices: [
       "Unison",
       "Minor 2nd",
@@ -250,7 +245,6 @@ const questionBank = [
       "Tritone",
       "Perfect 5th",
       "Minor 6th",
-
       "Minor 7th",
       "Major 7th",
       "Octave",
@@ -264,8 +258,7 @@ const questionBank = [
   },
   {
     question: "Identify the interval",
-    soundURL:
-      "https://dl.dropboxusercontent.com/s/m3a2fpz8f3a2qt3/Minor%207th.mp3?dl=0",
+    soundURL: Minor7th,
     choices: [
       "Unison",
       "Minor 2nd",
@@ -277,7 +270,6 @@ const questionBank = [
       "Perfect 5th",
       "Minor 6th",
       "Major 6th",
-
       "Major 7th",
       "Octave",
     ]
@@ -290,8 +282,7 @@ const questionBank = [
   },
   {
     question: "Identify the interval",
-    soundURL:
-      "https://dl.dropboxusercontent.com/s/1izj4x1bqch3k3x/Major%207th.mp3?dl=0",
+    soundURL: Major7th,
     choices: [
       "Unison",
       "Minor 2nd",
@@ -304,7 +295,6 @@ const questionBank = [
       "Minor 6th",
       "Major 6th",
       "Minor 7th",
-
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
@@ -316,8 +306,7 @@ const questionBank = [
   },
   {
     question: "Identify the interval",
-    soundURL:
-      "https://dl.dropboxusercontent.com/s/4fphkj649cbiw3k/Octave.mp3?dl=0",
+    soundURL: Octave,
     choices: [
       "Unison",
       "Minor 2nd",
