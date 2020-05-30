@@ -6,7 +6,6 @@ const questionBank = [
     soundURL:
       "https://dl.dropboxusercontent.com/s/bwjsbaaus2jy3vy/Unison.mp3?dl=0",
     choices: [
-      "Unison",
       "Minor 2nd",
       "Major 2nd",
       "Minor 3rd",
@@ -33,7 +32,7 @@ const questionBank = [
       "https://dl.dropboxusercontent.com/s/z7ty1a76a8fqvjd/Minor%202nd.mp3?dl=0",
     choices: [
       "Unison",
-      "Minor 2nd",
+
       "Major 2nd",
       "Minor 3rd",
       "Major 3rd",
@@ -60,7 +59,7 @@ const questionBank = [
     choices: [
       "Unison",
       "Minor 2nd",
-      "Major 2nd",
+
       "Minor 3rd",
       "Major 3rd",
       "Perfect 4th",
@@ -87,7 +86,7 @@ const questionBank = [
       "Unison",
       "Minor 2nd",
       "Major 2nd",
-      "Minor 3rd",
+
       "Major 3rd",
       "Perfect 4th",
       "Tritone",
@@ -115,7 +114,7 @@ const questionBank = [
       "Minor 2nd",
       "Major 2nd",
       "Minor 3rd",
-      "Major 3rd",
+
       "Perfect 4th",
       "Tritone",
       "Perfect 5th",
@@ -142,7 +141,7 @@ const questionBank = [
       "Major 2nd",
       "Minor 3rd",
       "Major 3rd",
-      "Perfect 4th",
+
       "Tritone",
       "Perfect 5th",
       "Minor 6th",
@@ -169,7 +168,7 @@ const questionBank = [
       "Minor 3rd",
       "Major 3rd",
       "Perfect 4th",
-      "Tritone",
+
       "Perfect 5th",
       "Minor 6th",
       "Major 6th",
@@ -196,7 +195,7 @@ const questionBank = [
       "Major 3rd",
       "Perfect 4th",
       "Tritone",
-      "Perfect 5th",
+
       "Minor 6th",
       "Major 6th",
       "Minor 7th",
@@ -224,7 +223,7 @@ const questionBank = [
       "Perfect 4th",
       "Tritone",
       "Perfect 5th",
-      "Minor 6th",
+
       "Major 6th",
       "Minor 7th",
       "Major 7th",
@@ -251,7 +250,7 @@ const questionBank = [
       "Tritone",
       "Perfect 5th",
       "Minor 6th",
-      "Major 6th",
+
       "Minor 7th",
       "Major 7th",
       "Octave",
@@ -278,7 +277,7 @@ const questionBank = [
       "Perfect 5th",
       "Minor 6th",
       "Major 6th",
-      "Minor 7th",
+
       "Major 7th",
       "Octave",
     ]
@@ -305,7 +304,7 @@ const questionBank = [
       "Minor 6th",
       "Major 6th",
       "Minor 7th",
-      "Major 7th",
+
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
@@ -332,7 +331,6 @@ const questionBank = [
       "Major 6th",
       "Minor 7th",
       "Major 7th",
-      "Octave",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
