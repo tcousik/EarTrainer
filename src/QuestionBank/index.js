@@ -21,7 +21,9 @@ const questionBank = [
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 3),
+      .slice(0, 3)
+      .concat("Unison")
+      .sort(() => 0.5 - Math.random()),
     correct: "Unison",
     questionId: shortid.generate(),
   },
@@ -45,7 +47,9 @@ const questionBank = [
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 3),
+      .slice(0, 3)
+      .concat("Minor 2nd")
+      .sort(() => 0.5 - Math.random()),
     correct: "Minor 2nd",
     questionId: shortid.generate(),
   },
@@ -69,7 +73,9 @@ const questionBank = [
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 3),
+      .slice(0, 3)
+      .concat("Major 2nd")
+      .sort(() => 0.5 - Math.random()),
     correct: "Major 2nd",
     questionId: shortid.generate(),
   },
@@ -93,7 +99,9 @@ const questionBank = [
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 3),
+      .slice(0, 3)
+      .concat("Minor 3rd")
+      .sort(() => 0.5 - Math.random()),
     correct: "Minor 3rd",
     questionId: shortid.generate(),
   },
@@ -118,7 +126,9 @@ const questionBank = [
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 3),
+      .slice(0, 3)
+      .concat("Major 3rd")
+      .sort(() => 0.5 - Math.random()),
     correct: "Major 3rd",
     questionId: shortid.generate(),
   },
@@ -142,7 +152,9 @@ const questionBank = [
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 3),
+      .slice(0, 3)
+      .concat("Perfect 4th")
+      .sort(() => 0.5 - Math.random()),
     correct: "Perfect 4th",
     questionId: shortid.generate(),
   },
@@ -166,7 +178,9 @@ const questionBank = [
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 3),
+      .slice(0, 3)
+      .concat("Tritone")
+      .sort(() => 0.5 - Math.random()),
     correct: "Tritone",
     questionId: shortid.generate(),
   },
@@ -190,7 +204,9 @@ const questionBank = [
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 3),
+      .slice(0, 3)
+      .concat("Perfect 5th")
+      .sort(() => 0.5 - Math.random()),
     correct: "Perfect 5th",
     questionId: shortid.generate(),
   },
@@ -215,7 +231,9 @@ const questionBank = [
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 3),
+      .slice(0, 3)
+      .concat("Minor 6th")
+      .sort(() => 0.5 - Math.random()),
     correct: "Minor 6th",
     questionId: shortid.generate(),
   },
@@ -239,7 +257,9 @@ const questionBank = [
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 3),
+      .slice(0, 3)
+      .concat("Major 6th")
+      .sort(() => 0.5 - Math.random()),
     correct: "Major 6th",
     questionId: shortid.generate(),
   },
@@ -263,7 +283,9 @@ const questionBank = [
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 3),
+      .slice(0, 3)
+      .concat("Minor 7th")
+      .sort(() => 0.5 - Math.random()),
     correct: "Minor 7th",
     questionId: shortid.generate(),
   },
@@ -287,7 +309,9 @@ const questionBank = [
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 3),
+      .slice(0, 3)
+      .concat("Major 7th")
+      .sort(() => 0.5 - Math.random()),
     correct: "Major 7th",
     questionId: shortid.generate(),
   },
@@ -311,7 +335,9 @@ const questionBank = [
       "Octave",
     ]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 3),
+      .slice(0, 3)
+      .concat("Octave")
+      .sort(() => 0.5 - Math.random()),
     correct: "Octave",
     questionId: shortid.generate(),
   },
