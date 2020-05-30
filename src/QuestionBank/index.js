@@ -15,7 +15,7 @@ import Octave from "../assets/Octave.mp3";
 
 const questionBank = [
   {
-    question: "Identify the interval",
+    question: "Identify the interval:",
     soundURL: Unison,
     choices: [
       "Minor 2nd",
@@ -39,7 +39,7 @@ const questionBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the interval",
+    question: "Identify the interval:",
     soundURL: Minor2nd,
     choices: [
       "Unison",
@@ -63,7 +63,7 @@ const questionBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the interval",
+    question: "Identify the interval:",
     soundURL: Major2nd,
     choices: [
       "Unison",
@@ -87,7 +87,7 @@ const questionBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the interval",
+    question: "Identify the interval:",
     soundURL: Minor3rd,
     choices: [
       "Unison",
@@ -112,7 +112,7 @@ const questionBank = [
   },
 
   {
-    question: "Identify the interval",
+    question: "Identify the interval:",
     soundURL: Major3rd,
     choices: [
       "Unison",
@@ -136,7 +136,7 @@ const questionBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the interval",
+    question: "Identify the interval:",
     soundURL: Perfect4th,
     choices: [
       "Unison",
@@ -160,7 +160,7 @@ const questionBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the interval",
+    question: "Identify the interval:",
     soundURL: Tritone,
     choices: [
       "Unison",
@@ -184,7 +184,7 @@ const questionBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the interval",
+    question: "Identify the interval:",
     soundURL: Perfect5th,
     choices: [
       "Unison",
@@ -209,7 +209,7 @@ const questionBank = [
   },
 
   {
-    question: "Identify the interval",
+    question: "Identify the interval:",
     soundURL: Minor6th,
     choices: [
       "Unison",
@@ -233,7 +233,7 @@ const questionBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the interval",
+    question: "Identify the interval:",
     soundURL: Major6th,
     choices: [
       "Unison",
@@ -257,7 +257,7 @@ const questionBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the interval",
+    question: "Identify the interval:",
     soundURL: Minor7th,
     choices: [
       "Unison",
@@ -281,7 +281,7 @@ const questionBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the interval",
+    question: "Identify the interval:",
     soundURL: Major7th,
     choices: [
       "Unison",
@@ -305,7 +305,7 @@ const questionBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the interval",
+    question: "Identify the interval:",
     soundURL: Octave,
     choices: [
       "Unison",

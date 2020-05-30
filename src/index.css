@@ -94,5 +94,13 @@
 }
 
 .audioBtn {
-  margin-left: 10px;
+  margin-left: 4px;
+  transition-duration: 0.3s;
+  border-radius: 6px;
+}
+
+.audioBtn:hover {
+  background-color: red;
+  cursor: pointer;
+  color: white;
 }
