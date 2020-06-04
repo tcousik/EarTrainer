@@ -15,7 +15,7 @@ import Octave from "../../assets/Intervals/Octave.mp3";
 import Minor9th from "../../assets/Intervals/Minor9th.mp3";
 import Major9th from "../../assets/Intervals/Major9th.mp3";
 
-const questionBank = [
+const intervalBank = [
   {
     question: "Identify the interval:",
     soundURL: Unison,
@@ -411,4 +411,4 @@ const questionBank = [
 ];
 
 export default () =>
-  Promise.resolve(questionBank.sort(() => 0.5 - Math.random()).slice(0, 4));
+  Promise.resolve(intervalBank.sort(() => 0.5 - Math.random()).slice(0, 4));
