@@ -12,6 +12,8 @@ import Major6th from "../../assets/Intervals/Major6th.mp3";
 import Minor7th from "../../assets/Intervals/Minor7th.mp3";
 import Major7th from "../../assets/Intervals/Major7th.mp3";
 import Octave from "../../assets/Intervals/Octave.mp3";
+import Minor9th from "../../assets/Intervals/Minor9th.mp3";
+import Major9th from "../../assets/Intervals/Major9th.mp3";
 
 const questionBank = [
   {
@@ -30,6 +32,8 @@ const questionBank = [
       "Minor 7th",
       "Major 7th",
       "Octave",
+      "Minor 9th",
+      "Major 9th",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
@@ -54,6 +58,8 @@ const questionBank = [
       "Minor 7th",
       "Major 7th",
       "Octave",
+      "Minor 9th",
+      "Major 9th",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
@@ -78,6 +84,8 @@ const questionBank = [
       "Minor 7th",
       "Major 7th",
       "Octave",
+      "Minor 9th",
+      "Major 9th",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
@@ -102,6 +110,8 @@ const questionBank = [
       "Minor 7th",
       "Major 7th",
       "Octave",
+      "Minor 9th",
+      "Major 9th",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
@@ -127,6 +137,8 @@ const questionBank = [
       "Minor 7th",
       "Major 7th",
       "Octave",
+      "Minor 9th",
+      "Major 9th",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
@@ -151,6 +163,8 @@ const questionBank = [
       "Minor 7th",
       "Major 7th",
       "Octave",
+      "Minor 9th",
+      "Major 9th",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
@@ -175,6 +189,8 @@ const questionBank = [
       "Minor 7th",
       "Major 7th",
       "Octave",
+      "Minor 9th",
+      "Major 9th",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
@@ -199,6 +215,8 @@ const questionBank = [
       "Minor 7th",
       "Major 7th",
       "Octave",
+      "Minor 9th",
+      "Major 9th",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
@@ -224,6 +242,8 @@ const questionBank = [
       "Minor 7th",
       "Major 7th",
       "Octave",
+      "Minor 9th",
+      "Major 9th",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
@@ -248,6 +268,8 @@ const questionBank = [
       "Minor 7th",
       "Major 7th",
       "Octave",
+      "Minor 9th",
+      "Major 9th",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
@@ -272,6 +294,8 @@ const questionBank = [
       "Major 6th",
       "Major 7th",
       "Octave",
+      "Minor 9th",
+      "Major 9th",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
@@ -296,6 +320,8 @@ const questionBank = [
       "Major 6th",
       "Minor 7th",
       "Octave",
+      "Minor 9th",
+      "Major 9th",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
@@ -320,12 +346,66 @@ const questionBank = [
       "Major 6th",
       "Minor 7th",
       "Major 7th",
+      "Minor 9th",
+      "Major 9th",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
       .concat("Octave")
       .sort(() => 0.5 - Math.random()),
     correct: "Octave",
+    questionId: shortid.generate(),
+  },
+  {
+    question: "Identify the interval:",
+    soundURL: Minor9th,
+    choices: [
+      "Unison",
+      "Minor 2nd",
+      "Major 2nd",
+      "Minor 3rd",
+      "Major 3rd",
+      "Perfect 4th",
+      "Tritone",
+      "Perfect 5th",
+      "Minor 6th",
+      "Major 6th",
+      "Minor 7th",
+      "Major 7th",
+      "Octave",
+      "Major 9th",
+    ]
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 3)
+      .concat("Minor 9th")
+      .sort(() => 0.5 - Math.random()),
+    correct: "Minor 9th",
+    questionId: shortid.generate(),
+  },
+  {
+    question: "Identify the interval:",
+    soundURL: Major9th,
+    choices: [
+      "Unison",
+      "Minor 2nd",
+      "Major 2nd",
+      "Minor 3rd",
+      "Major 3rd",
+      "Perfect 4th",
+      "Tritone",
+      "Perfect 5th",
+      "Minor 6th",
+      "Major 6th",
+      "Minor 7th",
+      "Major 7th",
+      "Octave",
+      "Minor 9th",
+    ]
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 3)
+      .concat("Major 9th")
+      .sort(() => 0.5 - Math.random()),
+    correct: "Major 9th",
     questionId: shortid.generate(),
   },
 ];
