@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import questionBank from "./QuestionBank";
-import QuestionBox from "./components/QuestionBox";
-import Result from "./components/Result";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import intervalBank from "./components/intervalBank";
+import QuestionBox from "./components/questionBox";
+import Result from "./components/result";
 import "./index.css";
 
 export default class App extends React.Component {
@@ -13,7 +14,7 @@ export default class App extends React.Component {
   };
 
   fetchQuestions = () => {
-    questionBank().then((question) => {
+    intervalBank().then((question) => {
       this.setState({
         questions: question,
       });
