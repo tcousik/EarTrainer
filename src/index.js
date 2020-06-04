@@ -8,6 +8,7 @@ export default class App extends React.Component {
   state = {
     displayedComponent: "Home",
   };
+
   render() {
     return (
       <div>
