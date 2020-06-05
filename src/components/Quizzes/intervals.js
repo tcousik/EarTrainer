@@ -1,7 +1,7 @@
 import React from "react";
 import intervalBank from "../Banks/intervalBank";
-import QuestionBox from "../questionBox";
-import Result from "../result";
+import QuestionBox from "../QuestionBox";
+import Result from "../Result";
 import "../../index.css";
 
 export default class Interval extends React.Component {

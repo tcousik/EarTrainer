@@ -1,7 +1,7 @@
 import React from "react";
 import chordBank from "../Banks/chordBank";
-import QuestionBox from "../questionBox";
-import Result from "../result";
+import QuestionBox from "../QuestionBox";
+import Result from "../Result";
 import "../../index.css";
 
 export default class Chord extends React.Component {

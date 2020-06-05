@@ -1,7 +1,7 @@
 import React from "react";
 import scaleBank from "../Banks/scaleBank";
-import QuestionBox from "../questionBox";
-import Result from "../result";
+import QuestionBox from "../QuestionBox";
+import Result from "../Result";
 import "../../index.css";
 
 export default class Scale extends React.Component {
@@ -45,7 +45,7 @@ export default class Scale extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="title">Chords</div>
+        <div className="title">Scales</div>
         {this.state.responses < 4 &&
           this.state.questions.map(
             ({ question, soundURL, choices, correct, questionId }) => (
