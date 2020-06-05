@@ -4,7 +4,7 @@ import QuestionBox from "../questionBox";
 import Result from "../result";
 import "../../index.css";
 
-export default class App extends React.Component {
+export default class Interval extends React.Component {
   state = {
     questions: [],
     score: 0,
@@ -12,9 +12,9 @@ export default class App extends React.Component {
   };
 
   fetchIntervals = () => {
-    intervalBank().then((question) => {
+    intervalBank().then((interval) => {
       this.setState({
-        questions: question,
+        questions: interval,
       });
     });
   };
@@ -45,7 +45,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="title">Ear Trainer</div>
+        <div className="title">Intervals</div>
         {this.state.responses < 4 &&
           this.state.questions.map(
             ({ question, soundURL, choices, correct, questionId }) => (
