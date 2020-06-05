@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Intervals from "./components/Quizzes/intervals";
 import Chords from "./components/Quizzes/chords";
+import Scales from "./components/Quizzes/scales";
 import "./index.css";
 
 export default class App extends React.Component {
@@ -21,6 +22,9 @@ export default class App extends React.Component {
             <Link to="/chords">
               <button>CHORDS</button>
             </Link>
+            <Link to="/scales">
+              <button>SCALES</button>
+            </Link>
           </div>
           <Switch>
             <Route path="/intervals">
@@ -28,6 +32,9 @@ export default class App extends React.Component {
             </Route>
             <Route path="/chords">
               <Chords />
+            </Route>
+            <Route path="/scales">
+              <Scales />
             </Route>
           </Switch>
         </Router>
