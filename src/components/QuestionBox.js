@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import shortid from "shortid";
 
 const playSound = (src) => {
   let sound = new Audio(src);
   sound.play();
 };
 
-const QuestionBox = ({ question, soundURL, choices, chosen }) => {
+const QuestionBox = ({ question, questionId, soundURL, choices, chosen }) => {
   const [answer, setAnswer] = useState(choices);
 
   return (
@@ -20,7 +19,7 @@ const QuestionBox = ({ question, soundURL, choices, chosen }) => {
       <div className="cont">
         {answer.map((text, index) => (
           <button
-            key={shortid.generate()}
+            key={questionId}
             className="answerBtn"
             onClick={() => {
               setAnswer([text]);

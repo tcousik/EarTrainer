@@ -7,6 +7,7 @@ import "../../index.css";
 export default class Interval extends React.Component {
   state = {
     questions: [],
+    currentIndex: 0,
     score: 0,
     responses: 0,
   };

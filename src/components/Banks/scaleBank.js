@@ -31,7 +31,6 @@ const scaleBank = [
     soundURL: NatMinor,
     choices: [
       "Major",
-
       "Harmonic Minor",
       "Dorian",
       "Lydian",
@@ -51,7 +50,6 @@ const scaleBank = [
     choices: [
       "Major",
       "Natural Minor",
-
       "Dorian",
       "Lydian",
       "Mixolydian",
@@ -71,7 +69,6 @@ const scaleBank = [
       "Major",
       "Natural Minor",
       "Harmonic Minor",
-
       "Lydian",
       "Mixolydian",
       "Phrygian",
@@ -91,7 +88,6 @@ const scaleBank = [
       "Natural Minor",
       "Harmonic Minor",
       "Dorian",
-
       "Mixolydian",
       "Phrygian",
     ]
@@ -111,7 +107,6 @@ const scaleBank = [
       "Harmonic Minor",
       "Dorian",
       "Lydian",
-
       "Phrygian",
     ]
       .sort(() => 0.5 - Math.random())

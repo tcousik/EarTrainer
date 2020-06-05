@@ -43,7 +43,6 @@ const chordBank = [
     soundURL: Major,
     choices: [
       "Minor",
-
       "Diminished",
       "Augmented",
       "Suspended 2nd",
@@ -69,7 +68,6 @@ const chordBank = [
     choices: [
       "Minor",
       "Major",
-
       "Diminished",
       "Suspended 2nd",
       "Suspended 4th",
@@ -95,7 +93,6 @@ const chordBank = [
       "Minor",
       "Major",
       "Augmented",
-
       "Suspended 2nd",
       "Suspended 4th",
       "Minor 6th",
@@ -121,7 +118,6 @@ const chordBank = [
       "Major",
       "Diminished",
       "Augmented",
-
       "Suspended 4th",
       "Minor 6th",
       "Major 6th",
@@ -147,7 +143,6 @@ const chordBank = [
       "Diminished",
       "Augmented",
       "Suspended 2nd",
-
       "Minor 6th",
       "Major 6th",
       "Dominant 7th",
@@ -173,7 +168,6 @@ const chordBank = [
       "Augmented",
       "Suspended 2nd",
       "Suspended 4th",
-
       "Major 6th",
       "Dominant 7th",
       "Major 7th",
@@ -199,7 +193,6 @@ const chordBank = [
       "Suspended 2nd",
       "Suspended 4th",
       "Minor 6th",
-
       "Dominant 7th",
       "Major 7th",
       "Minor 7th",
@@ -225,7 +218,6 @@ const chordBank = [
       "Suspended 4th",
       "Minor 6th",
       "Major 6th",
-
       "Major 7th",
       "Minor 7th",
       "Minor Major 7th",
@@ -251,7 +243,6 @@ const chordBank = [
       "Minor 6th",
       "Major 6th",
       "Dominant 7th",
-
       "Minor 7th",
       "Minor Major 7th",
       "Diminished 7th",
@@ -277,7 +268,6 @@ const chordBank = [
       "Major 6th",
       "Dominant 7th",
       "Major 7th",
-
       "Minor Major 7th",
       "Diminished 7th",
     ]
@@ -303,7 +293,6 @@ const chordBank = [
       "Dominant 7th",
       "Major 7th",
       "Minor 7th",
-
       "Diminished 7th",
     ]
       .sort(() => 0.5 - Math.random())
