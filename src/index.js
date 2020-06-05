@@ -8,12 +8,13 @@ import "./index.css";
 
 export default class App extends React.Component {
   state = {
-    displayedComponent: "Home",
+    visible: null,
   };
 
   render() {
     return (
-      <div>
+      <div className="App">
+        <h1>Ear Trainer</h1>
         <Router>
           <div>
             <Link to="/intervals">
