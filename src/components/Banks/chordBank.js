@@ -329,4 +329,4 @@ const chordBank = [
 ];
 
 export default () =>
-  Promise.resolve(chordBank.sort(() => 0.5 - Math.random()).slice(0, 4));
+  Promise.resolve(chordBank.sort(() => 0.5 - Math.random()).slice(0, 5));

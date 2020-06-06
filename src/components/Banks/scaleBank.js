@@ -137,4 +137,4 @@ const scaleBank = [
 ];
 
 export default () =>
-  Promise.resolve(scaleBank.sort(() => 0.5 - Math.random()).slice(0, 4));
+  Promise.resolve(scaleBank.sort(() => 0.5 - Math.random()).slice(0, 5));

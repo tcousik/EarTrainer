@@ -26,7 +26,7 @@ export default class Chord extends React.Component {
       });
     }
     this.setState({
-      responses: this.state.responses < 4 ? this.state.responses + 1 : 4,
+      responses: this.state.responses < 5 ? this.state.responses + 1 : 5,
     });
   };
 
@@ -43,25 +43,30 @@ export default class Chord extends React.Component {
   }
 
   render() {
+    if (this.state.responses < 5) {
+      return (
+        <div>
+          <div className="container">
+            <div className="title">Chords</div>
+            {this.state.responses < 5 &&
+              this.state.questions.map(
+                ({ question, soundURL, choices, correct, questionId }) => (
+                  <QuestionBox
+                    question={question}
+                    soundURL={soundURL}
+                    choices={choices}
+                    key={questionId}
+                    chosen={(answer) => this.evaluate(answer, correct)}
+                  />
+                )
+              )}
+          </div>
+        </div>
+      );
+    }
     return (
-      <div className="container">
-        <div className="title">Chords</div>
-        {this.state.responses < 4 &&
-          this.state.questions.map(
-            ({ question, soundURL, choices, correct, questionId }) => (
-              <QuestionBox
-                question={question}
-                soundURL={soundURL}
-                choices={choices}
-                key={questionId}
-                chosen={(answer) => this.evaluate(answer, correct)}
-              />
-            )
-          )}
-
-        {this.state.responses === 4 ? (
-          <Result score={this.state.score} tryAgain={this.tryAgain} />
-        ) : null}
+      <div className="result">
+        <Result score={this.state.score} tryAgain={this.tryAgain} />
       </div>
     );
   }
