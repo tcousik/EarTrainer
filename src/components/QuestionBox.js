@@ -13,7 +13,7 @@ const QuestionBox = ({ question, questionId, soundURL, choices, chosen }) => {
       <div className="questionSpace">
         <div className="question">{question}</div>
         <button className="audioBtn" onClick={() => playSound(soundURL)}>
-          X
+          <span>Play</span>
         </button>
       </div>
       <div className="cont">

@@ -106,15 +106,34 @@
 }
 
 .audioBtn {
+  display: inline-block;
   margin-left: 4px;
-  transition-duration: 0.3s;
   border-radius: 6px;
 }
 
-.audioBtn:hover {
-  background-color: red;
+.audioBtn span {
   cursor: pointer;
-  color: white;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.audioBtn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -1px;
+  transition: 0.3s;
+}
+
+.audioBtn:hover span {
+  padding-right: 10px;
+}
+
+.audioBtn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 nav {
@@ -124,6 +143,7 @@ nav {
   min-height: 10vh;
   background: #2e4a62;
   color: white;
+  border-radius: 5px;
 }
 
 .navLinks {
