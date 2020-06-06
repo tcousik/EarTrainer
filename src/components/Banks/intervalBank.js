@@ -411,4 +411,4 @@ const intervalBank = [
 ];
 
 export default () =>
-  Promise.resolve(intervalBank.sort(() => 0.5 - Math.random()).slice(0, 4));
+  Promise.resolve(intervalBank.sort(() => 0.5 - Math.random()).slice(0, 5));
