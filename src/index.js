@@ -1,47 +1,34 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Guide from "./components/guide";
 import Intervals from "./components/Quizzes/intervals";
 import Chords from "./components/Quizzes/chords";
 import Scales from "./components/Quizzes/scales";
+import Nav from "./components/Nav";
 import "./index.css";
 
-export default class App extends React.Component {
-  state = {
-    visible: null,
-  };
-
-  render() {
-    return (
+export default function App() {
+  return (
+    <Router>
       <div className="App">
-        <h1>Ear Trainer</h1>
-        <Router>
-          <div>
-            <Link to="/intervals">
-              <button>INTERVALS</button>
-            </Link>
-            <Link to="/chords">
-              <button>CHORDS</button>
-            </Link>
-            <Link to="/scales">
-              <button>SCALES</button>
-            </Link>
-          </div>
-          <Switch>
-            <Route path="/intervals">
-              <Intervals />
-            </Route>
-            <Route path="/chords">
-              <Chords />
-            </Route>
-            <Route path="/scales">
-              <Scales />
-            </Route>
-          </Switch>
-        </Router>
+        <Nav />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/guide" component={Guide} />
+          <Route path="/intervals" component={Intervals} />
+          <Route path="/chords" component={Chords} />
+          <Route path="/scales" component={Scales} />
+        </Switch>
       </div>
-    );
-  }
+    </Router>
+  );
 }
+
+const Home = () => (
+  <div>
+    <h1>HOME</h1>
+  </div>
+);
 
 ReactDOM.render(<App />, document.getElementById("root"));
