@@ -109,6 +109,7 @@
   display: inline-block;
   margin-left: 4px;
   border-radius: 6px;
+  outline: none;
 }
 
 .audioBtn span {
