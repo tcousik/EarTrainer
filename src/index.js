@@ -26,8 +26,9 @@ export default function App() {
 }
 
 const Home = () => (
-  <div>
-    <h1>HOME</h1>
+  <div className="title">
+    <h2>Ear Trainer</h2>
+    <h4>Tejas Cousik</h4>
   </div>
 );
 
