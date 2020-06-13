@@ -39,7 +39,7 @@ const playSound = (src) => {
 export default function IntervalGuide() {
   return (
     <div>
-      <h1>Interval Guide</h1>
+      <h1>Intervals Guide</h1>
       <h3>
         An interval refers to the distance between two notes. Intervals are the
         most basic part of ear training. In Western music, there are 13 notes in
@@ -69,7 +69,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Unison</td>
               <td>
-                <img alt="" src={UnisonPic} />
+                <img className="intPics" alt="" src={UnisonPic} />
               </td>
               <td>
                 <button
@@ -83,7 +83,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Minor 2nd</td>
               <td>
-                <img alt="" src={Minor2ndPic} />
+                <img className="intPics" alt="" src={Minor2ndPic} />
               </td>
               <td>
                 <button
@@ -97,7 +97,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Major 2nd</td>
               <td>
-                <img alt="" src={Major2ndPic} />
+                <img className="intPics" alt="" src={Major2ndPic} />
               </td>
               <td>
                 <button
@@ -111,7 +111,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Minor 3rd</td>
               <td>
-                <img alt="" src={Minor3rdPic} />
+                <img className="intPics" alt="" src={Minor3rdPic} />
               </td>
               <td>
                 <button
@@ -125,7 +125,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Major 3rd</td>
               <td>
-                <img alt="" src={Major3rdPic} />
+                <img className="intPics" alt="" src={Major3rdPic} />
               </td>
               <td>
                 <button
@@ -139,7 +139,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Perfect 4th</td>
               <td>
-                <img alt="" src={Perfect4thPic} />
+                <img className="intPics" alt="" src={Perfect4thPic} />
               </td>
               <td>
                 <button
@@ -153,7 +153,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Tritone</td>
               <td>
-                <img alt="" src={TritonePic} />
+                <img className="intPics" alt="" src={TritonePic} />
               </td>
               <td>
                 <button
@@ -167,7 +167,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Perfect 5th</td>
               <td>
-                <img alt="" src={Perfect5thPic} />
+                <img className="intPics" alt="" src={Perfect5thPic} />
               </td>
               <td>
                 <button
@@ -181,7 +181,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Minor 6th</td>
               <td>
-                <img alt="" src={Minor6thPic} />
+                <img className="intPics" alt="" src={Minor6thPic} />
               </td>
               <td>
                 <button
@@ -195,7 +195,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Major 6th</td>
               <td>
-                <img alt="" src={Major6thPic} />
+                <img className="intPics" alt="" src={Major6thPic} />
               </td>
               <td>
                 <button
@@ -209,7 +209,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Minor 7th</td>
               <td>
-                <img alt="" src={Minor7thPic} />
+                <img className="intPics" alt="" src={Minor7thPic} />
               </td>
               <td>
                 <button
@@ -223,7 +223,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Major 7th</td>
               <td>
-                <img alt="" src={Major7thPic} />
+                <img className="intPics" alt="" src={Major7thPic} />
               </td>
               <td>
                 <button
@@ -237,7 +237,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Octave</td>
               <td>
-                <img alt="" src={OctavePic} />
+                <img className="intPics" alt="" src={OctavePic} />
               </td>
               <td>
                 <button
@@ -251,7 +251,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Minor 9th</td>
               <td>
-                <img alt="" src={Minor9thPic} />
+                <img className="intPics" alt="" src={Minor9thPic} />
               </td>
               <td>
                 <button
@@ -265,7 +265,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Major 9th</td>
               <td>
-                <img alt="" src={Major9thPic} />
+                <img className="intPics" alt="" src={Major9thPic} />
               </td>
               <td>
                 <button

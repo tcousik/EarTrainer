@@ -1,6 +1,5 @@
 import React from "react";
 import "./guide.css";
-
 import MinorPic from "../../assets/Chords/minor.png";
 import MinorSound from "../../assets/Chords/Minor.mp3";
 import MajorPic from "../../assets/Chords/major.png";
@@ -36,7 +35,7 @@ const playSound = (src) => {
 export default function IntervalGuide() {
   return (
     <div>
-      <h1>Chord Guide</h1>
+      <h1>Chords Guide</h1>
       <h3>
         An interval refers to the distance between two notes. Intervals are the
         most basic part of ear training. In Western music, there are 13 notes in
@@ -66,7 +65,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Minor</td>
               <td>
-                <img alt="" src={MinorPic} />
+                <img className="chordPics" alt="" src={MinorPic} />
               </td>
               <td>
                 <button
@@ -80,7 +79,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Major</td>
               <td>
-                <img alt="" src={MajorPic} />
+                <img className="chordPics" alt="" src={MajorPic} />
               </td>
               <td>
                 <button
@@ -94,7 +93,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Diminished</td>
               <td>
-                <img alt="" src={DiminishedPic} />
+                <img className="chordPics" alt="" src={DiminishedPic} />
               </td>
               <td>
                 <button
@@ -108,7 +107,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Augmented</td>
               <td>
-                <img alt="" src={AugmentedPic} />
+                <img className="chordPics" alt="" src={AugmentedPic} />
               </td>
               <td>
                 <button
@@ -122,7 +121,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Suspended 2nd</td>
               <td>
-                <img alt="" src={Sus2ndPic} />
+                <img className="chordPics" alt="" src={Sus2ndPic} />
               </td>
               <td>
                 <button
@@ -136,7 +135,7 @@ export default function IntervalGuide() {
             <tr>
               <td>Suspended 4th</td>
               <td>
-                <img alt="" src={Sus4thPic} />
+                <img className="chordPics" alt="" src={Sus4thPic} />
               </td>
               <td>
                 <button
@@ -148,98 +147,98 @@ export default function IntervalGuide() {
               </td>
             </tr>
             <tr>
-              <td>Unison</td>
+              <td>Minor 6th</td>
               <td>
-                <img alt="" src={MinorPic} />
+                <img className="chordPics" alt="" src={Minor6thPic} />
               </td>
               <td>
                 <button
                   className="audioBtn"
-                  onClick={() => playSound(MinorSound)}
+                  onClick={() => playSound(Minor6thSound)}
                 >
                   <span>Play</span>
                 </button>
               </td>
             </tr>
             <tr>
-              <td>Unison</td>
+              <td>Major 6th</td>
               <td>
-                <img alt="" src={MinorPic} />
+                <img className="chordPics" alt="" src={Major6thPic} />
               </td>
               <td>
                 <button
                   className="audioBtn"
-                  onClick={() => playSound(MinorSound)}
+                  onClick={() => playSound(Major6thSound)}
                 >
                   <span>Play</span>
                 </button>
               </td>
             </tr>
             <tr>
-              <td>Unison</td>
+              <td>Dominant 7th</td>
               <td>
-                <img alt="" src={MinorPic} />
+                <img className="chordPics" alt="" src={Dom7thPic} />
               </td>
               <td>
                 <button
                   className="audioBtn"
-                  onClick={() => playSound(MinorSound)}
+                  onClick={() => playSound(Dom7thSound)}
                 >
                   <span>Play</span>
                 </button>
               </td>
             </tr>
             <tr>
-              <td>Unison</td>
+              <td>Major 7th</td>
               <td>
-                <img alt="" src={MinorPic} />
+                <img className="chordPics" alt="" src={Major7thPic} />
               </td>
               <td>
                 <button
                   className="audioBtn"
-                  onClick={() => playSound(MinorSound)}
+                  onClick={() => playSound(Major7thSound)}
                 >
                   <span>Play</span>
                 </button>
               </td>
             </tr>
             <tr>
-              <td>Unison</td>
+              <td>Minor 7th</td>
               <td>
-                <img alt="" src={MinorPic} />
+                <img className="chordPics" alt="" src={Minor7thPic} />
               </td>
               <td>
                 <button
                   className="audioBtn"
-                  onClick={() => playSound(MinorSound)}
+                  onClick={() => playSound(Minor7thSound)}
                 >
                   <span>Play</span>
                 </button>
               </td>
             </tr>
             <tr>
-              <td>Unison</td>
+              <td>Diminished 7th</td>
               <td>
-                <img alt="" src={MinorPic} />
+                <img className="chordPics" alt="" src={Dim7thPic} />
               </td>
               <td>
                 <button
                   className="audioBtn"
-                  onClick={() => playSound(MinorSound)}
+                  onClick={() => playSound(Dim7thSound)}
                 >
                   <span>Play</span>
                 </button>
               </td>
             </tr>
             <tr>
-              <td>Unison</td>
+              <td>Major Minor 7th</td>
               <td>
-                <img alt="" src={MinorPic} />
+                <img className="chordPics" alt="" src={MinorMajorPic} />
               </td>
               <td>
                 <button
                   className="audioBtn"
-                  onClick={() => playSound(MinorSound)}
+                  onClick={() => playSound(MinorMajorSound)}
                 >
                   <span>Play</span>
                 </button>

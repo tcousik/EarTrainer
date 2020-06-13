@@ -1,6 +1,16 @@
-img {
+.intPics {
   height: 100px;
   width: 100px;
+}
+
+.chordPics {
+  height: 150px;
+  width: 300px;
+}
+
+.scalePics {
+  height: 150px;
+  width: 800px;
 }
 
 table {
