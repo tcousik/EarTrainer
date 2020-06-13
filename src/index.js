@@ -19,9 +19,9 @@ export default function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/guide" component={Guide} />
-          <Route path="/intervals" component={Intervals} />
-          <Route path="/chords" component={Chords} />
-          <Route path="/scales" component={Scales} />
+          <Route path="/intervals-quiz" component={Intervals} />
+          <Route path="/chords-quiz" component={Chords} />
+          <Route path="/scales-quiz" component={Scales} />
           <Route path="/interval-guide" component={IntervalGuide} />
           <Route path="/chord-guide" component={ChordGuide} />
           <Route path="/scale-guide" component={ScaleGuide} />

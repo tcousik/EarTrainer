@@ -16,13 +16,13 @@ export default function Nav() {
         <Link style={navStyle} to="/guide">
           <li>GUIDE</li>
         </Link>
-        <Link style={navStyle} to="/intervals">
+        <Link style={navStyle} to="/intervals-quiz">
           <li>INTERVALS</li>
         </Link>
-        <Link style={navStyle} to="/chords">
+        <Link style={navStyle} to="/chords-quiz">
           <li>CHORDS</li>
         </Link>
-        <Link style={navStyle} to="/scales">
+        <Link style={navStyle} to="/scales-quiz">
           <li>SCALES</li>
         </Link>
       </ul>
