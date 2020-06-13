@@ -12,13 +12,13 @@ export default function Guide() {
         material. Most formally taught musicians undergo ear training as part of
         their curriculum. This reference guide will describe the various...
       </h6>
-      <Link to="/interval-guide">
+      <Link to="/intervals-guide">
         <button className="answerBtn">Intervals</button>
       </Link>
-      <Link to="/chord-guide">
+      <Link to="/chords-guide">
         <button className="answerBtn">Chords</button>
       </Link>
-      <Link to="/scale-guide">
+      <Link to="/scales-guide">
         <button className="answerBtn">Scales</button>
       </Link>
     </div>

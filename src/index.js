@@ -22,9 +22,9 @@ export default function App() {
           <Route path="/intervals-quiz" component={Intervals} />
           <Route path="/chords-quiz" component={Chords} />
           <Route path="/scales-quiz" component={Scales} />
-          <Route path="/interval-guide" component={IntervalGuide} />
-          <Route path="/chord-guide" component={ChordGuide} />
-          <Route path="/scale-guide" component={ScaleGuide} />
+          <Route path="/intervals-guide" component={IntervalGuide} />
+          <Route path="/chords-guide" component={ChordGuide} />
+          <Route path="/scales-guide" component={ScaleGuide} />
         </Switch>
       </div>
     </Router>
