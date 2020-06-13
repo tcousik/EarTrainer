@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
-    <div class="navbar">
+    <div className="navbar">
       <Link to="/">LOGO</Link>
-      <div class="dropdown">
-        <button class="dropbtn">QUIZZES</button>
-        <div class="dropdown-content">
+      <div className="dropdown">
+        <button className="dropbtn">QUIZZES</button>
+        <div className="dropdown-content">
           <Link to="/intervals-quiz">
             <li>INTERVALS</li>
           </Link>
@@ -20,9 +20,9 @@ export default function Nav() {
           </Link>
         </div>
       </div>
-      <div class="dropdown">
-        <button class="dropbtn">GUIDE</button>
-        <div class="dropdown-content">
+      <div className="dropdown">
+        <button className="dropbtn">GUIDE</button>
+        <div className="dropdown-content">
           <Link to="/intervals-guide">
             <li>INTERVALS</li>
           </Link>

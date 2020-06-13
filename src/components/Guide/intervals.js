@@ -57,7 +57,6 @@ export default function IntervalGuide() {
       </h3>
 
       <div className="title">
-        INTERVALS
         <table>
           <thead>
             <tr>

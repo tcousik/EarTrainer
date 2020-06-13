@@ -10,7 +10,7 @@ import Major6th from "../../assets/Chords/Major6th.mp3";
 import Dom7th from "../../assets/Chords/Dom7th.mp3";
 import Major7th from "../../assets/Chords/Major7th.mp3";
 import Minor7th from "../../assets/Chords/Minor7th.mp3";
-import MinorMajor7th from "../../assets/Chords/MinorMajor7th.mp3";
+import MinorMajor from "../../assets/Chords/MinorMajor.mp3";
 import Dim7th from "../../assets/Chords/Dim7th.mp3";
 
 const chordBank = [
@@ -28,7 +28,7 @@ const chordBank = [
       "Dominant 7th",
       "Major 7th",
       "Minor 7th",
-      "Minor Major 7th",
+      "Minor Major",
       "Diminished 7th",
     ]
       .sort(() => 0.5 - Math.random())
@@ -52,7 +52,7 @@ const chordBank = [
       "Dominant 7th",
       "Major 7th",
       "Minor 7th",
-      "Minor Major 7th",
+      "Minor Major",
       "Diminished 7th",
     ]
       .sort(() => 0.5 - Math.random())
@@ -76,7 +76,7 @@ const chordBank = [
       "Dominant 7th",
       "Major 7th",
       "Minor 7th",
-      "Minor Major 7th",
+      "Minor Major",
       "Diminished 7th",
     ]
       .sort(() => 0.5 - Math.random())
@@ -100,7 +100,7 @@ const chordBank = [
       "Dominant 7th",
       "Major 7th",
       "Minor 7th",
-      "Minor Major 7th",
+      "Minor Major",
       "Diminished 7th",
     ]
       .sort(() => 0.5 - Math.random())
@@ -124,7 +124,7 @@ const chordBank = [
       "Dominant 7th",
       "Major 7th",
       "Minor 7th",
-      "Minor Major 7th",
+      "Minor Major",
       "Diminished 7th",
     ]
       .sort(() => 0.5 - Math.random())
@@ -148,7 +148,7 @@ const chordBank = [
       "Dominant 7th",
       "Major 7th",
       "Minor 7th",
-      "Minor Major 7th",
+      "Minor Major",
       "Diminished 7th",
     ]
       .sort(() => 0.5 - Math.random())
@@ -172,7 +172,7 @@ const chordBank = [
       "Dominant 7th",
       "Major 7th",
       "Minor 7th",
-      "Minor Major 7th",
+      "Minor Major",
       "Diminished 7th",
     ]
       .sort(() => 0.5 - Math.random())
@@ -196,7 +196,7 @@ const chordBank = [
       "Dominant 7th",
       "Major 7th",
       "Minor 7th",
-      "Minor Major 7th",
+      "Minor Major",
       "Diminished 7th",
     ]
       .sort(() => 0.5 - Math.random())
@@ -220,7 +220,7 @@ const chordBank = [
       "Major 6th",
       "Major 7th",
       "Minor 7th",
-      "Minor Major 7th",
+      "Minor Major",
       "Diminished 7th",
     ]
       .sort(() => 0.5 - Math.random())
@@ -244,7 +244,7 @@ const chordBank = [
       "Major 6th",
       "Dominant 7th",
       "Minor 7th",
-      "Minor Major 7th",
+      "Minor Major",
       "Diminished 7th",
     ]
       .sort(() => 0.5 - Math.random())
@@ -268,7 +268,7 @@ const chordBank = [
       "Major 6th",
       "Dominant 7th",
       "Major 7th",
-      "Minor Major 7th",
+      "Minor Major",
       "Diminished 7th",
     ]
       .sort(() => 0.5 - Math.random())
@@ -280,7 +280,7 @@ const chordBank = [
   },
   {
     question: "Identify the chord:",
-    soundURL: MinorMajor7th,
+    soundURL: MinorMajor,
     choices: [
       "Minor",
       "Major",
@@ -297,9 +297,9 @@ const chordBank = [
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
-      .concat("Minor Major 7th")
+      .concat("Minor Major")
       .sort(() => 0.5 - Math.random()),
-    correct: "Minor Major 7th",
+    correct: "Minor Major",
     questionId: shortid.generate(),
   },
   {
@@ -317,7 +317,7 @@ const chordBank = [
       "Dominant 7th",
       "Major 7th",
       "Minor 7th",
-      "Minor Major 7th",
+      "Minor Major",
     ]
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
