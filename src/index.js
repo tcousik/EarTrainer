@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Guide from "./components/guide";
+import Guide from "./components/Guide/main";
 import Intervals from "./components/Quizzes/intervals";
 import Chords from "./components/Quizzes/chords";
 import Scales from "./components/Quizzes/scales";
+import IntervalGuide from "./components/Guide/intervals";
+import ChordGuide from "./components/Guide/chords";
+import ScaleGuide from "./components/Guide/scales";
 import Nav from "./components/Nav";
 import "./index.css";
 
@@ -19,6 +22,9 @@ export default function App() {
           <Route path="/intervals" component={Intervals} />
           <Route path="/chords" component={Chords} />
           <Route path="/scales" component={Scales} />
+          <Route path="/interval-guide" component={IntervalGuide} />
+          <Route path="/chord-guide" component={ChordGuide} />
+          <Route path="/scale-guide" component={ScaleGuide} />
         </Switch>
       </div>
     </Router>

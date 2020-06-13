@@ -17,7 +17,7 @@ const QuestionBox = ({ question, questionId, soundURL, choices, chosen }) => {
         </button>
       </div>
       <div className="cont">
-        {answer.map((text, index) => (
+        {answer.map((text) => (
           <button
             key={questionId}
             className="answerBtn"
