@@ -19,6 +19,8 @@ export default function IntervalGuide() {
         3rd. The interval between a C and E, however, is known as a major 3rd.
         This section will introduce all the intervals with audio examples.
       </h3>
+
+      <div></div>
     </div>
   );
 }
