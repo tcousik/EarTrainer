@@ -30,6 +30,7 @@ import Minor9thPic from "../../assets/Intervals/minor9th.png";
 import Minor9thSound from "../../assets/Intervals/Minor9th.mp3";
 import Major9thPic from "../../assets/Intervals/major9th.png";
 import Major9thSound from "../../assets/Intervals/Major9th.mp3";
+import { unstable_renderSubtreeIntoContainer } from "react-dom";
 
 const playSound = (src) => {
   let sound = new Audio(src);
@@ -38,8 +39,8 @@ const playSound = (src) => {
 
 export default function IntervalGuide() {
   return (
-    <div>
-      <h1>Intervals Guide</h1>
+    <div className="guideContainer">
+      <h1 id="tit">Intervals Guide</h1>
       <h3>
         An interval refers to the distance between two notes. Intervals are the
         most basic part of ear training. In Western music, there are 13 notes in
@@ -55,229 +56,19 @@ export default function IntervalGuide() {
         3rd. The interval between a C and E, however, is known as a major 3rd.
         This section will introduce all the intervals with audio examples.
       </h3>
-
-      <div className="title">
-        <table>
-          <thead>
-            <tr>
-              <th>NAME</th>
-              <th>PIC</th>
-              <th>SOUND</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Unison</td>
-              <td>
-                <img className="intPics" alt="" src={UnisonPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(UnisonSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Minor 2nd</td>
-              <td>
-                <img className="intPics" alt="" src={Minor2ndPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(Minor2ndSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Major 2nd</td>
-              <td>
-                <img className="intPics" alt="" src={Major2ndPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(Major2ndSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Minor 3rd</td>
-              <td>
-                <img className="intPics" alt="" src={Minor3rdPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(Minor3rdSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Major 3rd</td>
-              <td>
-                <img className="intPics" alt="" src={Major3rdPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(Major3rdSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Perfect 4th</td>
-              <td>
-                <img className="intPics" alt="" src={Perfect4thPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(Perfect4thSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Tritone</td>
-              <td>
-                <img className="intPics" alt="" src={TritonePic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(TritoneSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Perfect 5th</td>
-              <td>
-                <img className="intPics" alt="" src={Perfect5thPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(Perfect5thSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Minor 6th</td>
-              <td>
-                <img className="intPics" alt="" src={Minor6thPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(Minor6thSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Major 6th</td>
-              <td>
-                <img className="intPics" alt="" src={Major6thPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(Major6thSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Minor 7th</td>
-              <td>
-                <img className="intPics" alt="" src={Minor7thPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(Minor7thSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Major 7th</td>
-              <td>
-                <img className="intPics" alt="" src={Major7thPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(Major7thSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Octave</td>
-              <td>
-                <img className="intPics" alt="" src={OctavePic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(OctaveSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Minor 9th</td>
-              <td>
-                <img className="intPics" alt="" src={Minor9thPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(Minor9thSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Major 9th</td>
-              <td>
-                <img className="intPics" alt="" src={Major9thPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(Major9thSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+      <div className="guideStuff">
+        <div className="guideBox">
+          <div className="questionSpace">
+            <h2>Minor</h2>
+            <button
+              className="guideBtn"
+              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+            >
+              <span>Listen</span>
+            </button>
+          </div>
+          <img src={UnisonPic} className="chordPics" alt="" />
+        </div>
       </div>
     </div>
   );
