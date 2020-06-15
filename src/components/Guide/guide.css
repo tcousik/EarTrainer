@@ -1,38 +1,53 @@
-.intPics {
-  height: 100px;
-  width: 100px;
+body {
+  background-color: #9bc1bc;
 }
 
-.chordPics {
-  height: 150px;
-  width: 300px;
+.guideContainer {
+  font-family: Calibri;
+  position: absolute;
+  width: 750px;
+  height: 2575px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 60px 100px 60px 100px;
+  box-sizing: border-box;
+  top: 80px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: white;
 }
 
-.scalePics {
-  height: 150px;
-  width: 800px;
+.guideStuff {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-table {
-  width: 60%;
-  text-align: center;
+.questionSpace {
+  display: flex;
+  justify-content: center;
 }
 
-.audioBtn {
+.guideBtn {
   display: inline-block;
-  margin-left: 4px;
+  min-width: 50px;
+  height: 30px;
+  margin: 20px 0px 0px 10px;
   border-radius: 6px;
   outline: none;
 }
 
-.audioBtn span {
+.guideBtn span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.3s;
 }
 
-.audioBtn span:after {
+.guideBtn span:after {
   content: "\00bb";
   position: absolute;
   opacity: 0;
@@ -41,11 +56,26 @@ table {
   transition: 0.3s;
 }
 
-.audioBtn:hover span {
+.guideBtn:hover span {
   padding-right: 10px;
 }
 
-.audioBtn:hover span:after {
+.guideBtn:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.intPics {
+  height: 100px;
+  width: 100px;
+}
+
+.chordPics {
+  height: 80px;
+  width: 200px;
+}
+
+.scalePics {
+  height: 150px;
+  width: 800px;
 }
