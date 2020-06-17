@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import VolumeUpIcon from "@material-ui/icons/VolumeUp";
 
 const playSound = (src) => {
   let sound = new Audio(src);
@@ -12,12 +13,11 @@ const QuestionBox = ({ question, questionId, soundURL, choices, chosen }) => {
     <div className="questionBox">
       <div className="questionSpace">
         <div className="question">{question}</div>
-        <button
-          className="audioBtn"
-          onClick={() => playSound(soundURL)}
-        ></button>
+        <button className="audioBtn" onClick={() => playSound(soundURL)}>
+          <VolumeUpIcon />
+        </button>
       </div>
-      <div className="cont">
+      <div>
         {answer.map((text) => (
           <button
             key={questionId}
