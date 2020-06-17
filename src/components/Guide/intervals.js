@@ -30,7 +30,7 @@ import Minor9thPic from "../../assets/Intervals/minor9th.png";
 import Minor9thSound from "../../assets/Intervals/Minor9th.mp3";
 import Major9thPic from "../../assets/Intervals/major9th.png";
 import Major9thSound from "../../assets/Intervals/Major9th.mp3";
-import { unstable_renderSubtreeIntoContainer } from "react-dom";
+import VolumeUpIcon from "@material-ui/icons/VolumeUp";
 
 const playSound = (src) => {
   let sound = new Audio(src);
@@ -58,183 +58,177 @@ export default function IntervalGuide() {
       <div className="guideStuff">
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
-            <button
-              className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
-            >
-              Listen
+            <h2>Unison</h2>
+            <button className="guideBtn" onClick={() => playSound(UnisonSound)}>
+              <VolumeUpIcon />
             </button>
           </div>
           <img src={UnisonPic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
+            <h2>Minor 2nd</h2>
             <button
               className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+              onClick={() => playSound(Minor2ndSound)}
             >
-              Listen
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={Minor2ndPic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
+            <h2>Major 2nd</h2>
             <button
               className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+              onClick={() => playSound(Major2ndSound)}
             >
-              Listen
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={Major2ndPic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
+            <h2>Minor 3rd</h2>
             <button
               className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+              onClick={() => playSound(Minor3rdSound)}
             >
-              Listen
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={Minor3rdPic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
+            <h2>Major 3rd</h2>
             <button
               className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+              onClick={() => playSound(Major3rdSound)}
             >
-              Listen
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={Major3rdPic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
+            <h2>Perfect 4th</h2>
             <button
               className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+              onClick={() => playSound(Perfect4thSound)}
             >
-              Listen
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={Perfect4thPic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
+            <h2>Tritone</h2>
             <button
               className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+              onClick={() => playSound(TritoneSound)}
             >
-              Listen
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={TritonePic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
+            <h2>Perfect 5th</h2>
             <button
               className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+              onClick={() => playSound(Perfect5thSound)}
             >
-              Listen
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={Perfect5thPic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
+            <h2>Minor 6th</h2>
             <button
               className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+              onClick={() => playSound(Minor6thSound)}
             >
-              Listen
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={Minor6thPic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
+            <h2>Major 6th</h2>
             <button
               className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+              onClick={() => playSound(Major6thSound)}
             >
-              Listen
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={Major6thPic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
+            <h2>Minor 7th</h2>
             <button
               className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+              onClick={() => playSound(Minor7thSound)}
             >
-              Listen
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={Minor7thPic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
+            <h2>Major 7th</h2>
             <button
               className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+              onClick={() => playSound(Major7thSound)}
             >
-              Listen
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={Major7thPic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
-            <button
-              className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
-            >
-              Listen
+            <h2>Octave</h2>
+            <button className="guideBtn" onClick={() => playSound(OctaveSound)}>
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={OctavePic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
+            <h2>Minor 9th</h2>
             <button
               className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+              onClick={() => playSound(Minor9thSound)}
             >
-              Listen
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={Minor9thPic} className="intPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
-            <h2>Minor</h2>
+            <h2>Major 9th</h2>
             <button
               className="guideBtn"
-              onClick={() => playSound(unstable_renderSubtreeIntoContainer)}
+              onClick={() => playSound(Major9thSound)}
             >
-              Listen
+              <VolumeUpIcon />
             </button>
           </div>
-          <img src={UnisonPic} className="intPics" alt="" />
+          <img src={Major9thPic} className="intPics" alt="" />
         </div>
       </div>
     </div>

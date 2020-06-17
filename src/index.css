@@ -115,32 +115,14 @@
   display: inline-block;
   margin-left: 4px;
   border-radius: 6px;
-  outline: none;
+  border: none;
+  background-color: #ca907e;
 }
 
-.audioBtn span {
+.audioBtn:hover {
+  color: #312244;
+  background-color: #9bc1bc;
   cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.3s;
-}
-
-.audioBtn span:after {
-  content: "\00bb";
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -1px;
-  transition: 0.3s;
-}
-
-.audioBtn:hover span {
-  padding-right: 10px;
-}
-
-.audioBtn:hover span:after {
-  opacity: 1;
-  right: 0;
 }
 
 nav {

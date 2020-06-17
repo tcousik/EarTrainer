@@ -12,9 +12,10 @@ const QuestionBox = ({ question, questionId, soundURL, choices, chosen }) => {
     <div className="questionBox">
       <div className="questionSpace">
         <div className="question">{question}</div>
-        <button className="audioBtn" onClick={() => playSound(soundURL)}>
-          Listen
-        </button>
+        <button
+          className="audioBtn"
+          onClick={() => playSound(soundURL)}
+        ></button>
       </div>
       <div className="cont">
         {answer.map((text) => (

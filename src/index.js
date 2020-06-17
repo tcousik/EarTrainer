@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Guide from "./components/Guide/main";
 import Intervals from "./components/Quizzes/intervals";
 import Chords from "./components/Quizzes/chords";
 import Scales from "./components/Quizzes/scales";
@@ -18,7 +17,6 @@ export default function App() {
         <Nav />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/guide" component={Guide} />
           <Route path="/intervals-quiz" component={Intervals} />
           <Route path="/chords-quiz" component={Chords} />
           <Route path="/scales-quiz" component={Scales} />

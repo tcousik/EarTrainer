@@ -50,6 +50,7 @@ body {
 }
 
 .guideStuff {
+  font-size: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -65,34 +66,19 @@ body {
   display: inline-block;
   min-width: 50px;
   height: 30px;
-  margin: 20px 0px 0px 10px;
+  margin: 8px 0px 0px 10px;
   border-radius: 6px;
   border: none;
   outline: none;
+  background-color: #ca907e;
+  color: white;
+  padding-top: 3px;
 }
 
-.guideBtn span {
+.guideBtn:hover {
+  color: #312244;
+  background-color: #9bc1bc;
   cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.3s;
-}
-
-.guideBtn span:after {
-  content: "\00bb";
-  position: absolute;
-  opacity: 0;
-  right: -1px;
-  transition: 0.3s;
-}
-
-.guideBtn:hover span {
-  padding-right: 10px;
-}
-
-.guideBtn:hover span:after {
-  opacity: 1;
-  right: 0;
 }
 
 .intPics {
