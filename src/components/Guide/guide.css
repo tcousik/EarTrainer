@@ -84,16 +84,29 @@ body {
 .intPics {
   height: 60px;
   width: 130px;
-  padding: 0 10px 0 10px;
+  padding: 0 10px 5px 10px;
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
 
 .chordPics {
   height: 60px;
   width: 160px;
-  padding: 0 10px 0 10px;
+  padding: 0 10px 5px 10px;
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
 
 .scalePics {
   height: 80px;
-  width: 280px;
+  width: 260px;
+  padding: 0 7px 7px 7px;
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }

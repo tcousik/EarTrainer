@@ -111,19 +111,20 @@
 }
 
 .audioBtn {
-  padding-top: 3px;
+  padding: 4px 0 0 0;
   display: inline-block;
   margin-left: 4px;
   border-radius: 6px;
   min-width: 50px;
   border: none;
   background-color: #ca907e;
+  color: #312244;
   outline: none;
 }
 
 .audioBtn:hover {
-  color: #312244;
-  background-color: #9bc1bc;
+  color: white;
+  background-color: #312244;
   cursor: pointer;
 }
 
