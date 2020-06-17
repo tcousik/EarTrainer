@@ -22,9 +22,9 @@ const playSound = (src) => {
 
 export default function IntervalGuide() {
   return (
-    <div>
-      <h1>Scales Guide</h1>
-      <h3>
+    <div className="guideContainer">
+      <h1 className="tit">Scales Guide</h1>
+      <h3 className="description">
         An interval refers to the distance between two notes. Intervals are the
         most basic part of ear training. In Western music, there are 13 notes in
         an octave. Therefore, there are 13 commonly studied intervals and a
@@ -32,125 +32,12 @@ export default function IntervalGuide() {
         and a quality. The quantity refers to the general distance between the
         notes, while the quality is more specific about that distance.
       </h3>
-
-      <h3>
+      <h3 className="description">
         For example, the quantity of the interval between a C and an E♭ is 3 or
         a 3rd while the quality is minor. So the interval is known as a minor
         3rd. The interval between a C and E, however, is known as a major 3rd.
         This section will introduce all the intervals with audio examples.
       </h3>
-
-      <div className="title">
-        <table>
-          <thead>
-            <tr>
-              <th>NAME</th>
-              <th>PIC</th>
-              <th>SOUND</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Major</td>
-              <td>
-                <img className="scalePics" alt="" src={MajorPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(MajorSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Natural Minor</td>
-              <td>
-                <img className="scalePics" alt="" src={NatMinorPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(NatMinorSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Harmonic Minor</td>
-              <td>
-                <img className="scalePics" alt="" src={HarmMinorPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(HarmMinorSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Lydian</td>
-              <td>
-                <img className="scalePics" alt="" src={LydianPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(LydianSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Mixolydian</td>
-              <td>
-                <img className="scalePics" alt="" src={MixolydianPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(MixolydianSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Dorian</td>
-              <td>
-                <img className="scalePics" alt="" src={DorianPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(DorianSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Phrygian</td>
-              <td>
-                <img className="scalePics" alt="" src={PhrygianPic} />
-              </td>
-              <td>
-                <button
-                  className="audioBtn"
-                  onClick={() => playSound(PhrygianSound)}
-                >
-                  <span>Play</span>
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
     </div>
   );
 }

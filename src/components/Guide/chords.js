@@ -55,7 +55,7 @@ export default function IntervalGuide() {
           <div className="questionSpace">
             <h2>Minor</h2>
             <button className="guideBtn" onClick={() => playSound(MinorSound)}>
-              <span>Listen</span>
+              Listen
             </button>
           </div>
           <img src={MinorPic} className="chordPics" alt="" />
@@ -63,8 +63,8 @@ export default function IntervalGuide() {
         <div className="guideBox">
           <div className="questionSpace">
             <h2>Minor</h2>
-            <button className="guideBtn" onClick={() => playSound(MinorSound)}>
-              <span>Listen</span>
+            <button className="guideBtn" onClick={() => playSound(MajorSound)}>
+              Listen
             </button>
           </div>
           <img src={MajorPic} className="chordPics" alt="" />
@@ -72,8 +72,11 @@ export default function IntervalGuide() {
         <div className="guideBox">
           <div className="questionSpace">
             <h2>Minor</h2>
-            <button className="guideBtn" onClick={() => playSound(MinorSound)}>
-              <span>Listen</span>
+            <button
+              className="guideBtn"
+              onClick={() => playSound(DiminishedSound)}
+            >
+              Listen
             </button>
           </div>
           <img src={DiminishedPic} className="chordPics" alt="" />
@@ -81,8 +84,11 @@ export default function IntervalGuide() {
         <div className="guideBox">
           <div className="questionSpace">
             <h2>Minor</h2>
-            <button className="guideBtn" onClick={() => playSound(MinorSound)}>
-              <span>Listen</span>
+            <button
+              className="guideBtn"
+              onClick={() => playSound(AugmentedSound)}
+            >
+              Listen
             </button>
           </div>
           <img src={AugmentedPic} className="chordPics" alt="" />
@@ -90,8 +96,8 @@ export default function IntervalGuide() {
         <div className="guideBox">
           <div className="questionSpace">
             <h2>Minor</h2>
-            <button className="guideBtn" onClick={() => playSound(MinorSound)}>
-              <span>Listen</span>
+            <button className="guideBtn" onClick={() => playSound(Sus2ndSound)}>
+              Listen
             </button>
           </div>
           <img src={Sus2ndPic} className="chordPics" alt="" />
@@ -99,8 +105,8 @@ export default function IntervalGuide() {
         <div className="guideBox">
           <div className="questionSpace">
             <h2>Minor</h2>
-            <button className="guideBtn" onClick={() => playSound(MinorSound)}>
-              <span>Listen</span>
+            <button className="guideBtn" onClick={() => playSound(Sus4thSound)}>
+              Listen
             </button>
           </div>
           <img src={Sus4thPic} className="chordPics" alt="" />
@@ -108,8 +114,11 @@ export default function IntervalGuide() {
         <div className="guideBox">
           <div className="questionSpace">
             <h2>Minor</h2>
-            <button className="guideBtn" onClick={() => playSound(MinorSound)}>
-              <span>Listen</span>
+            <button
+              className="guideBtn"
+              onClick={() => playSound(Minor6thSound)}
+            >
+              Listen
             </button>
           </div>
           <img src={Minor6thPic} className="chordPics" alt="" />
@@ -117,8 +126,11 @@ export default function IntervalGuide() {
         <div className="guideBox">
           <div className="questionSpace">
             <h2>Minor</h2>
-            <button className="guideBtn" onClick={() => playSound(MinorSound)}>
-              <span>Listen</span>
+            <button
+              className="guideBtn"
+              onClick={() => playSound(Major6thSound)}
+            >
+              Listen
             </button>
           </div>
           <img src={Major6thPic} className="chordPics" alt="" />
@@ -126,8 +138,8 @@ export default function IntervalGuide() {
         <div className="guideBox">
           <div className="questionSpace">
             <h2>Minor</h2>
-            <button className="guideBtn" onClick={() => playSound(MinorSound)}>
-              <span>Listen</span>
+            <button className="guideBtn" onClick={() => playSound(Dom7thSound)}>
+              Listen
             </button>
           </div>
           <img src={Dom7thPic} className="chordPics" alt="" />
@@ -135,8 +147,11 @@ export default function IntervalGuide() {
         <div className="guideBox">
           <div className="questionSpace">
             <h2>Minor</h2>
-            <button className="guideBtn" onClick={() => playSound(MinorSound)}>
-              <span>Listen</span>
+            <button
+              className="guideBtn"
+              onClick={() => playSound(Minor7thSound)}
+            >
+              Listen
             </button>
           </div>
           <img src={Minor7thPic} className="chordPics" alt="" />
@@ -144,8 +159,11 @@ export default function IntervalGuide() {
         <div className="guideBox">
           <div className="questionSpace">
             <h2>Minor</h2>
-            <button className="guideBtn" onClick={() => playSound(MinorSound)}>
-              <span>Listen</span>
+            <button
+              className="guideBtn"
+              onClick={() => playSound(Major7thSound)}
+            >
+              Listen
             </button>
           </div>
           <img src={Major7thPic} className="chordPics" alt="" />
@@ -153,20 +171,23 @@ export default function IntervalGuide() {
         <div className="guideBox">
           <div className="questionSpace">
             <h2>Minor</h2>
-            <button className="guideBtn" onClick={() => playSound(MinorSound)}>
-              <span>Listen</span>
+            <button className="guideBtn" onClick={() => playSound(Dim7thSound)}>
+              Listen
             </button>
           </div>
-          <img src={Major7thPic} className="chordPics" alt="" />
+          <img src={Dim7thPic} className="chordPics" alt="" />
         </div>
         <div className="guideBox">
           <div className="questionSpace">
             <h2>Minor</h2>
-            <button className="guideBtn" onClick={() => playSound(MinorSound)}>
-              <span>Listen</span>
+            <button
+              className="guideBtn"
+              onClick={() => playSound(MinorMajorSound)}
+            >
+              Listen
             </button>
           </div>
-          <img src={Major7thPic} className="chordPics" alt="" />
+          <img src={MinorMajorPic} className="chordPics" alt="" />
         </div>
       </div>
     </div>
