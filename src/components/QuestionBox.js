@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import VolumeUpIcon from "@material-ui/icons/VolumeUp";
+import shortid from "shortid";
 
 const playSound = (src) => {
   let sound = new Audio(src);
   sound.play();
 };
 
-const QuestionBox = ({ question, questionId, soundURL, choices, chosen }) => {
+const QuestionBox = ({ question, soundURL, choices, chosen }) => {
   const [answer, setAnswer] = useState(choices);
 
   return (
@@ -20,7 +21,7 @@ const QuestionBox = ({ question, questionId, soundURL, choices, chosen }) => {
       <div>
         {answer.map((text) => (
           <button
-            key={questionId}
+            key={shortid.generate()}
             className="answerBtn"
             onClick={() => {
               setAnswer([text]);

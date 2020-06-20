@@ -3,6 +3,7 @@
 body {
   background-color: #9bc1bc;
   text-align: center;
+  font-family: "Source Sans Pro";
 }
 
 .guideTitle {
@@ -85,28 +86,19 @@ body {
   height: 60px;
   width: 130px;
   padding: 0 10px 5px 10px;
-  border-top-left-radius: 4%;
-  border-top-right-radius: 4%;
-  border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 10%;
+  border-radius: 8% 8% 10% 10%;
 }
 
 .chordPics {
   height: 60px;
   width: 160px;
   padding: 0 10px 5px 10px;
-  border-top-left-radius: 4%;
-  border-top-right-radius: 4%;
-  border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 10%;
+  border-radius: 7% 7% 10% 10%;
 }
 
 .scalePics {
   height: 80px;
   width: 260px;
   padding: 0 7px 7px 7px;
-  border-top-left-radius: 4%;
-  border-top-right-radius: 4%;
-  border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 10%;
+  border-radius: 4% 4% 10% 10%;
 }
