@@ -5,7 +5,7 @@ body {
   text-align: center;
 }
 
-.tit {
+.guideTitle {
   position: relative;
   text-align: center;
   background-color: #ca907e;
@@ -29,7 +29,7 @@ body {
   padding: 30px 80px;
   box-sizing: border-box;
   text-align: left;
-  top: 80px;
+  top: 90px;
   left: 0px;
   right: 0px;
   margin: auto;

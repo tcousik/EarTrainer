@@ -15,7 +15,7 @@ import Dim7th from "../../assets/Chords/Dim7th.mp3";
 
 const chordBank = [
   {
-    question: "Identify the chord:",
+    question: "Identify the chord",
     soundURL: Minor,
     choices: [
       "Major",
@@ -39,7 +39,7 @@ const chordBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the chord:",
+    question: "Identify the chord",
     soundURL: Major,
     choices: [
       "Minor",
@@ -63,7 +63,7 @@ const chordBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the chord:",
+    question: "Identify the chord",
     soundURL: Augmented,
     choices: [
       "Minor",
@@ -87,7 +87,7 @@ const chordBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the chord:",
+    question: "Identify the chord",
     soundURL: Diminished,
     choices: [
       "Minor",
@@ -111,7 +111,7 @@ const chordBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the chord:",
+    question: "Identify the chord",
     soundURL: Sus2nd,
     choices: [
       "Minor",
@@ -135,7 +135,7 @@ const chordBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the chord:",
+    question: "Identify the chord",
     soundURL: Sus4th,
     choices: [
       "Minor",
@@ -159,7 +159,7 @@ const chordBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the chord:",
+    question: "Identify the chord",
     soundURL: Minor6th,
     choices: [
       "Minor",
@@ -183,7 +183,7 @@ const chordBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the chord:",
+    question: "Identify the chord",
     soundURL: Major6th,
     choices: [
       "Minor",
@@ -207,7 +207,7 @@ const chordBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the chord:",
+    question: "Identify the chord",
     soundURL: Dom7th,
     choices: [
       "Minor",
@@ -231,7 +231,7 @@ const chordBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the chord:",
+    question: "Identify the chord",
     soundURL: Major7th,
     choices: [
       "Minor",
@@ -255,7 +255,7 @@ const chordBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the chord:",
+    question: "Identify the chord",
     soundURL: Minor7th,
     choices: [
       "Minor",
@@ -279,7 +279,7 @@ const chordBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the chord:",
+    question: "Identify the chord",
     soundURL: MinorMajor,
     choices: [
       "Minor",
@@ -303,7 +303,7 @@ const chordBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the chord:",
+    question: "Identify the chord",
     soundURL: Dim7th,
     choices: [
       "Minor",

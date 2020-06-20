@@ -21,7 +21,7 @@ export default function Nav() {
         </div>
       </div>
       <div className="dropdown">
-        <button className="dropbtn">GUIDE</button>
+        <button className="dropbtn">GUIDES</button>
         <div className="dropdown-content">
           <Link to="/intervals-guide">
             <li>INTERVALS</li>

@@ -9,7 +9,7 @@ import Phrygian from "../../assets/Scales/Phrygian.mp3";
 
 const scaleBank = [
   {
-    question: "Identify the scale:",
+    question: "Identify the scale",
     soundURL: Major,
     choices: [
       "Natural Minor",
@@ -27,7 +27,7 @@ const scaleBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the scale:",
+    question: "Identify the scale",
     soundURL: NatMinor,
     choices: [
       "Major",
@@ -45,7 +45,7 @@ const scaleBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the scale:",
+    question: "Identify the scale",
     soundURL: HarmMinor,
     choices: [
       "Major",
@@ -63,7 +63,7 @@ const scaleBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the scale:",
+    question: "Identify the scale",
     soundURL: Dorian,
     choices: [
       "Major",
@@ -81,7 +81,7 @@ const scaleBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the scale:",
+    question: "Identify the scale",
     soundURL: Lydian,
     choices: [
       "Major",
@@ -99,7 +99,7 @@ const scaleBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the scale:",
+    question: "Identify the scale",
     soundURL: Mixolydian,
     choices: [
       "Major",
@@ -117,7 +117,7 @@ const scaleBank = [
     questionId: shortid.generate(),
   },
   {
-    question: "Identify the scale:",
+    question: "Identify the scale",
     soundURL: Phrygian,
     choices: [
       "Major",

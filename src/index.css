@@ -30,25 +30,13 @@
   padding: 30px 80px;
   box-sizing: border-box;
   text-align: left;
-  top: 80px;
+  top: 90px;
   left: 0px;
   right: 0px;
   margin: auto;
   margin-bottom: 10px;
   background-color: #335c67;
 }
-
-/* .result {
-  position: absolute;
-  width: 750px;
-  height: 400px;
-  margin: auto;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  padding: 10px;
-  box-sizing: border-box;
-} */
 
 .title {
   position: relative;

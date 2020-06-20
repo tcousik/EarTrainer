@@ -24,7 +24,7 @@ const playSound = (src) => {
 export default function IntervalGuide() {
   return (
     <div className="guideContainer">
-      <h1 className="tit">Scales Guide</h1>
+      <h1 className="guideTitle">Scales Guide</h1>
       <h3 className="description">
         An interval refers to the distance between two notes. Intervals are the
         most basic part of ear training. In Western music, there are 13 notes in
