@@ -9,6 +9,7 @@ export default class Scale extends React.Component {
     questions: [],
     score: 0,
     responses: 0,
+    guide: "scales-guide",
   };
 
   fetchScales = () => {
@@ -66,7 +67,11 @@ export default class Scale extends React.Component {
     }
     return (
       <div className="result">
-        <Result score={this.state.score} tryAgain={this.tryAgain} />
+        <Result
+          score={this.state.score}
+          guide={this.state.guide}
+          tryAgain={this.tryAgain}
+        />
       </div>
     );
   }
