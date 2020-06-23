@@ -31,8 +31,12 @@ export default function App() {
 
 const Home = () => (
   <div className="title">
-    <h2>Ear Trainer</h2>
-    <h4>Tejas Cousik</h4>
+    <h5 className="home">
+      Hello. Welcome to the Ear Trainer App. Please refer to the guides to learn
+      the basics of ear training and then test your skills using the quizzes.
+    </h5>
+    <div className="name">Created By</div>
+    <div className="name">Tejas Cousik</div>
   </div>
 );
 

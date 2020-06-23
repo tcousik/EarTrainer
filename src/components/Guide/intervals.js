@@ -42,12 +42,13 @@ export default function IntervalGuide() {
     <div className="guideContainer">
       <h1 className="guideTitle">Intervals Guide</h1>
       <h3 className="description">
-        An interval refers to the distance between two notes. Intervals are the
-        most basic part of ear training. In Western music, there are 13 notes in
-        an octave. Therefore, there are 13 commonly studied intervals and a
-        couple rare ones that go beyond the octave. Each interval has a quantity
-        and a quality. The quantity refers to the general distance between the
-        notes, while the quality is more specific about that distance.
+        An interval refers to the distance between two notes. Interval training
+        is the most basic part of ear training. In Western music, there are 13
+        notes in an octave. Therefore, there are 13 commonly studied intervals
+        and a few additional ones that go beyond the octave. Each interval has a
+        quantity and a quality. The quantity refers to the general distance
+        between the notes, while the quality is more specific about that
+        distance.
       </h3>
       <h3 className="description">
         For example, the quantity of the interval between a C and an E♭ is 3 or

@@ -26,18 +26,16 @@ export default function IntervalGuide() {
     <div className="guideContainer">
       <h1 className="guideTitle">Scales Guide</h1>
       <h3 className="description">
-        An interval refers to the distance between two notes. Intervals are the
-        most basic part of ear training. In Western music, there are 13 notes in
-        an octave. Therefore, there are 13 commonly studied intervals and a
-        couple rare ones that go beyond the octave. Each interval has a quantity
-        and a quality. The quantity refers to the general distance between the
-        notes, while the quality is more specific about that distance.
+        A scale is a series of notes that revolve around one note known as the
+        root. There are a few commonly used scales in Western music, and each
+        scale is comprised of a varying set of intervals. Every scale provides a
+        different mood or feeling to a song.
       </h3>
       <h3 className="description">
-        For example, the quantity of the interval between a C and an E♭ is 3 or
-        a 3rd while the quality is minor. So the interval is known as a minor
-        3rd. The interval between a C and E, however, is known as a major 3rd.
-        This section will introduce all the intervals with audio examples.
+        For example, a major scale will sound cheerful while a natural minor
+        scale might evoke melancholy. Different genres use certain scales more
+        frequently, while the music of other cultures uses totally different
+        scales. This section will introduce some scales with audio examples.
       </h3>
       <div className="guideStuff">
         <div className="guideBox">

@@ -2,7 +2,7 @@
 
 .navbar {
   overflow: hidden;
-  background-color: #312244;
+  background-color: #f23f21;
   font-family: "Source Sans Pro";
   border-radius: 4px;
 }
@@ -39,7 +39,7 @@ li {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: #ca907e;
+  background-color: #f4875e;
 }
 
 .dropdown-content {
@@ -61,7 +61,7 @@ li {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #cccccc;
 }
 
 .dropdown:hover .dropdown-content {

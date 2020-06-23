@@ -38,18 +38,18 @@ export default function IntervalGuide() {
     <div className="guideContainer">
       <h1 className="guideTitle">Chords Guide</h1>
       <h3 className="description">
-        An interval refers to the distance between two notes. Intervals are the
-        most basic part of ear training. In Western music, there are 13 notes in
-        an octave. Therefore, there are 13 commonly studied intervals and a
-        couple rare ones that go beyond the octave. Each interval has a quantity
-        and a quality. The quantity refers to the general distance between the
-        notes, while the quality is more specific about that distance.
+        A chord is a set of several notes that are played together. There are
+        numerous chords in Western music but the most common chords are triads
+        (3 notes) and seventh chords (4 notes). The chords are named based on
+        the intervals that comprise that chord.
       </h3>
       <h3 className="description">
-        For example, the quantity of the interval between a C and an E♭ is 3 or
-        a 3rd while the quality is minor. So the interval is known as a minor
-        3rd. The interval between a C and E, however, is known as a major 3rd.
-        This section will introduce all the intervals with audio examples.
+        For example, a chord containing the notes C, E, and G, is a triad known
+        as C major. The key interval is between C and E. Since C to E is a major
+        third, C-E-G is a major chord. C-E♭-G would be called a minor chord.
+        Adding B♭ to this chord turns it into a dominant seventh chord because
+        B♭ is the seventh note in a C major scale. This section will introduce
+        all the chords with audio examples.
       </h3>
       <div className="guideStuff">
         <div className="guideBox">
