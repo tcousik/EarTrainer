@@ -8,6 +8,7 @@ import IntervalGuide from "./components/Guide/intervals";
 import ChordGuide from "./components/Guide/chords";
 import ScaleGuide from "./components/Guide/scales";
 import Nav from "./components/Nav";
+import About from "./components/About";
 import "./index.css";
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/intervals-guide" component={IntervalGuide} />
           <Route path="/chords-guide" component={ChordGuide} />
           <Route path="/scales-guide" component={ScaleGuide} />
+          <Route path="/about" component={About} />
         </Switch>
       </div>
     </Router>
