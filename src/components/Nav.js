@@ -34,6 +34,11 @@ export default function Nav() {
           </Link>
         </div>
       </div>
+      <div>
+        <Link to="/about">
+          <li>ABOUT</li>
+        </Link>
+      </div>
     </div>
   );
 }
