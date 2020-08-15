@@ -1,18 +1,32 @@
 .aboutContainer {
-  position: absolute;
+  position: relative;
   width: 950px;
-  height: 720px;
-  color: black;
-  font-weight: 900;
+  height: 470px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding: 30px 80px;
-  top: 90px;
+  padding: 30px;
+  box-sizing: border-box;
+  top: 30px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Source Sans Pro";
   background-color: white;
+  display: flex;
 }
 
 #pic {
-  height: 30px;
-  width: 300px;
+  height: 320px;
+  width: 260px;
+}
+
+.nameAndPic {
+  margin-left: 90px;
+}
+
+.contactInfo {
+  margin-left: 200px;
+  margin-top: 50px;
 }
